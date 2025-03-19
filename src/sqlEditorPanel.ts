@@ -30,9 +30,10 @@ export class SqlEditorPanel {
         if (SqlEditorPanel.currentPanel) {
             SqlEditorPanel.currentPanel._panel.reveal(column);
             // initialQuery があれば実行
-            if (initialQuery) {
-                SqlEditorPanel.currentPanel.runQuery(initialQuery);
-            }
+        if (initialQuery) {
+            SqlEditorPanel.currentPanel.setEditorValue(initialQuery);
+            SqlEditorPanel.currentPanel.runQuery(initialQuery);
+        }
             return;
         }
 
