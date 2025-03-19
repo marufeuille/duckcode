@@ -11,8 +11,7 @@ duckdb on vscode
 
 ## インストールの仕方
 
-- [こちら](https://github.com/marufeuille/duckcode/releases)から最新の vsix をダウンロードしてください
-- [こちら](https://learn.microsoft.com/ja-jp/visualstudio/ide/finding-and-using-visual-studio-extensions?view=vs-2022#install-without-using-extension-manager)の記載に従ってインストールしてください
+- [こちら](https://marketplace.visualstudio.com/items?itemName=marufeuille.duckcode&ssr=false#overview)からダウンロードしてください
 
 ## 使い方
 
@@ -24,5 +23,3 @@ duckdb on vscode
 ## やりたいこと(やってないこと)
 
 - 可視化できるデータ種類を増やす (いまのところ、あくまで簡易なものに閉じておきたいのでリッチにするつもりはない)
-
-- marketplace 公開
